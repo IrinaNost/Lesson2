@@ -1,0 +1,5 @@
+#settings
+.vscode/
+
+#sensitive file
+secret/
