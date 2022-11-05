@@ -1,0 +1,45 @@
+section{
+    display:flex;
+    justify-content:center;
+}
+.container {
+    width: 100%;
+    max-width:70%;
+}
+.button{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+}
+.button>div{
+
+}
+.btn{
+    padding: 0.5em 3em;
+    background-color: #202020;
+    color: aliceblue;
+    font-weight:bold;
+    letter-spacing: 0.1rem;
+    border-radius: 5px;
+    transition: all 0.1s ease;
+    cursor:pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-transform: uppercase;
+}
+.btn:hover{
+    color:#202020;
+    background-color:aliceblue;
+}
+.btn-svg{
+fill: aliceblue;
+}
+.btn:hover>.btn-svg{
+    fill: #202020;
+}
+.btn_a{
+    font-family: system-ui;
+    box-sizing: border-box;
+    text-decoration: none;
+}
